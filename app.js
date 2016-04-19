@@ -14,7 +14,6 @@ var totalCookies = 0;
 // document.totalsInUlel.appendChild(hoursCookies);
 // 1. Create el method to create element. 2. write on el the text content, 3. append to elemnt on page.
 
-var chicken = 'Americana';
 var neLiInUl = document.creatElement('li');
 var newArrayDataInhours = document.createTextNode('hoursOpen');
 typeOfChicken.appendChild('newLiInUl');
