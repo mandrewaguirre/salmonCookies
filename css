@@ -1,7 +1,51 @@
-body {
-  background-color: rgb(255,181,107);
-  background-image: url("image/salmon.gif");
-  background-repeat: no-repeat;
-  background-position: bottom;
 
+h1.logoStyles{
+
+}
+h1.logo{
+  margin:11px,11px,11px,11px;
+  background-color: rgb(186,31,31);
+  width:100%;
+  margin:1%;
+  text-align:center;
+}
+
+body{
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 90%;
+  background-color: rgb(202,196,194);
+  background-repeat: no-repeat;
+  background-position: left;
+  width:90%;
+  margin:0 auto;
+}
+
+h1 {
+  background-color: rgb(186,31,31);
+  width:80%;
+  margin:0 auto;
+}
+
+p {
+  font-family:sans-serif, arial;
+  font-size:18px;
+  background-color:rgb(189,163,148);
+  width:75%
+}
+p.images{
+  background-color: rgb (186,31,31);
+  display:inline-flex;
+
+
+}
+ul {
+  background-color:gray;
+  flex-wrap: wrap;
+}
+li.contact{
+  display:inline;
+  color:rgb(218,220,219);
+  text-align:center;
+  border-width:thin;
+  border-color:gray;
 }
