@@ -27,7 +27,7 @@ function Store(name, min, max, averageCookies) {
 //third method
   this.renderData = function() {
     this.averageCookies();
-    var parentEl = document.getElementById('salestable');
+    var parentEl = document.getElementById('sales-table');
     var tr = document.createElement('tr');
     var td = document.createElement('td');
     td.textContent = this.shopname;
@@ -46,7 +46,7 @@ function Store(name, min, max, averageCookies) {
 }//end of object constructor
 
 function headerRow () {
-  var parentEl = document.getElementById('salestable');
+  var parentEl = document.getElementById('sales-table');
   var totalEl = document.createElement('th');
   for (i = 0; i <= hoursOpen.length; i++) {
     var th = document.createElement('th');
@@ -71,7 +71,7 @@ function handleFormSubmit (event) {
   event.target.average.value = null;
 };
 
-var newform = document.getElementById('newform');
+var newform = document.getElementById('new-form');
 newform.addEventListener('submit', handleFormSubmit);
 headerRow();
 console.log(newform);
